@@ -1,0 +1,80 @@
+body{
+    background-color: #808080;
+    margin: 0px;
+    background-image: url("https://media3.giphy.com/media/aRZ4vTsHnyW6A/giphy.gif");
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+#nav-bar{
+    border: 0.2px solid black;
+    width:100%;
+    height:60px;
+    background-color: black;
+}
+#list{
+    list-style: none;
+    float:right;
+    color:#808080;
+    
+}
+#list>li{
+    display: inline-block;
+    padding-left: 10px;
+    padding-right: 10px;
+    font-size: 20px;
+    font-family: 'Merriweather', serif;
+}
+#main{
+    border:0.1px solid transparent;
+    width:85%;
+    height:563px;
+    top:0;
+    left:0;
+    right:0;
+    bottom: 0;
+    margin:auto;
+    background-color: transparent;
+
+
+    
+}
+#main>h1{
+    text-align: left;
+    margin-top: 170px;
+    margin-bottom: 168px;
+    margin-left:40px;
+    font-size: 70px;
+    color:white;
+    font-weight: bolder;
+    font-family: 'Merriweather', serif;
+}
+.section{
+    border: 0.1px solid transparent;
+    width: 85%;
+    height:623px;
+    top:0;
+    left:0;
+    right:0;
+    bottom:0;
+    margin:auto;
+    opacity: 0.6;
+}
+.section h1{
+    margin-left:40px;
+    margin-top:170px;
+    margin-bottom:168px;
+    font-size: 50px;
+    color:white;
+    font-family: 'Merriweather', serif;
+}
+footer{
+    border:0.1px solid black;
+    width:100%;
+    height:100px;
+    color:white;
+    background-color: black;
+    margin-top: 20px;
+    font-size: 20px;
+    padding-left:20px;
+    
+}
